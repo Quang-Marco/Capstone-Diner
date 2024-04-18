@@ -3,3 +3,180 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+.sub_title {
+  font-family: "Pacifico", cursive;
+  color: #ff6600;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.title {
+  max-width: 600px;
+  text-align: left;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 400;
+  color: black;
+}
+.text {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(22, 28, 45, 0.7);
+  line-height: 1.8;
+}
+
+header .navbar-brand {
+  font-size: 36px;
+  color: white;
+}
+
+header form i {
+  right: 25px;
+  top: 16px;
+}
+
+header form {
+  height: 50px;
+  width: 80%;
+}
+
+header .navbar_right {
+  width: 30%;
+}
+
+header .navbar_right > i {
+  font-size: 30px;
+  color: white;
+}
+
+header .navbar_right .fa-moon {
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+header .form-control {
+  border: transparent;
+}
+
+/* header .form-control:active, */
+header .form-control:focus {
+  box-shadow: none;
+}
+
+.banner {
+  background: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+    url(../img/banner1.jpg) no-repeat;
+  height: 96vh;
+  background-position: initial;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.banner .banner_content {
+  width: 500px;
+}
+
+.banner .banner_content p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin: 30px 0;
+}
+.banner .banner_content button {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  transition: all 0.5s;
+}
+.banner .banner_content i {
+  margin-left: 8px;
+}
+.banner .banner_content button:hover {
+  background-color: white;
+  color: orange;
+}
+
+.banner h3 {
+      font-size: 54px;
+    line-height: 64px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+/* ABOUT_US */
+
+/* .about_us{
+  line-height: 1.8;
+} */
+.about_us .about_us_content .about_left {
+  width: 40%;
+  padding-right: 50px;
+}
+.about_us .about_us_content .about_right {
+  width: 60%;
+}
+.about_us .about_us_content .about_left h2 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+/* END ABOUT_US */
+
+/* BOOK */
+.table_book .right {
+  background-color: #ff6600;
+}
+.table_book .right_upper span {
+  color: white;
+  display: block;
+}
+
+.left img {
+  object-fit: cover;
+}
+
+.table_book .row .left:before {
+  content: "";
+  background: rgb(16 15 19 / 46%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.right_bottom i {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: white;
+  color: #ff6600;
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+.table_book p {
+  color: #ffcead;
+}
+
+.right_bottom-right:hover i,
+.right_bottom-left:hover i {
+  color: #ffc600;
+}
+/* END BOOK */
