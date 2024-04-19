@@ -1,5 +1,167 @@
-* {
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: left;
+  color: #212529;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.btn {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  border-width: 2px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: white !important;
+  color: #ff6600 !important;
+}
+
+.sub_title {
+  font-family: "Pacifico", cursive;
+  color: #ff6600;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.title {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(22, 28, 45, 0.7);
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+/* HEADER */
+
+header .navbar_right .fa-search {
+  right: 20px;
+  top: 16px;
+}
+
+header .navbar_right .fa-moon {
+  font-size: 25px;
+  color: white;
+  padding: 0 20px;
+}
+
+header .navbar_right .fa-bars {
+  font-size: 30px;
+  color: white;
+}
+
+header .navbar .form-control {
+  padding: 10px 50px 10px 20px;
+  height: 45px;
+  border: 1px solid transparent;
+}
+
+header .form-control:focus {
+  box-shadow: none;
+}
+
+/* END HEADER */
+
+/*  */
+
+/* BANNER */
+
+.banner {
+  background: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+    url(../img/banner1.jpg) no-repeat;
+  background-position: initial;
+  background-size: cover;
+  height: 700px;
+}
+
+.banner .banner_content {
+  max-width: 600px;
+}
+
+.banner h3 {
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* END BANNER */
+
+/*  */
+
+/* ABOUT_US */
+
+/* END ABOUT_US */
+
+/*  */
+
+/* TABLE_BOOK */
+
+.table_book .table_book_left img {
+  object-fit: cover;
+}
+
+.table_book .table_book_right {
+  background-color: #ff6600;
+}
+
+.table_book .table_book_left:before {
+  content: "";
+  background: rgb(16 15 19 / 46%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.table_book .right_bottom i {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: white;
+  color: #ff6600;
+  display: block;
+  transition: all 0.3s;
+}
+
+.table_book p {
+  color: #ffcead;
+}
+
+.right_bottom-right:hover i,
+.right_bottom-left:hover i {
+  color: #ffc600;
+}
+
+/* END TABLE_BOOK */
