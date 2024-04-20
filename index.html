@@ -39,13 +39,131 @@
   </head>
 
   <body>
-    <header>
-      <!-- place navbar here -->
+    <header class="p-3 position-absolute top-0 start-0 w-100">
+      <div class="container">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand title text-white" href="#">Diner</a>
+            <div
+              class="navbar_right d-flex justify-content-between align-items-center"
+            >
+              <form class="position-relative" role="search">
+                <input
+                  class="form-control position-relative me-2"
+                  type="search"
+                  placeholder="Search here.."
+                  aria-label="Search"
+                />
+                <i class="fa fa-search position-absolute"></i>
+              </form>
+              <i class="fa-regular fa-moon"></i>
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
-    <main></main>
-    <footer>
-      <!-- place footer here -->
-    </footer>
+
+    <section class="banner d-flex align-items-center">
+      <div class="container">
+        <div class="banner_content">
+          <h3 class="text-white">
+            The Only Thing We Love More Than Food Is You!
+          </h3>
+          <p class="text text-white fs-6 mt-4 mb-5">
+            Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+            vitae sit. Ea ipsum sed consequuntur illum facere.
+          </p>
+          <button type="button" class="btn border-white text-white">
+            Read More <i class="fa fa-chevron-right ms-2"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about_us py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-5">
+            <h6 class="sub_title">About Us</h6>
+            <h2 class="title">
+              We found our creative space that is open for you.
+            </h2>
+          </div>
+          <div class="col-lg-7 ps-5">
+            <p class="text">
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.
+              Lorem ipsum init dolor sit, amet elit. Dolor ipsum non velit,
+              culpa!Lorem ipsum init dolor sit.
+            </p>
+            <p class="text">
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="table_book pb-5">
+      <div class="row gx-0">
+        <div class="table_book_left col-6 w-50 position-relative">
+          <img class="w-100 h-100" src="./img/banner3.jpg" alt="banner_3" />
+        </div>
+        <div class="table_book_right col-6 w-50 p-5">
+          <div class="right_top px-4 py-3">
+            <h6 class="sub_title text-white">More than 3000 Restaurants</h6>
+            <h2 class="title">Book a table easly at the best price</h2>
+            <p class="text">
+              Vestibulum ante ipsum primis in faucibus orci luctus turpis
+              sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam
+              tesque et libero ut justo ultrices in.
+            </p>
+          </div>
+          <div class="right_bottom row gx-5 px-4 py-3 justify-content-around">
+            <div class="right_bottom-left col-6">
+              <i class="fa fa-thumbs-up"></i>
+              <h6 class="title fs-5 py-2">Best Deals</h6>
+              <p class="text">
+                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+              </p>
+            </div>
+            <div class="right_bottom-right col-6">
+              <i class="fa fa-cutlery"></i>
+              <h6 class="title fs-5 py-2">Best Food</h6>
+              <p class="text">
+                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <div class="product_content">
+          <div class="product_title">
+            <p class="sub_title">What's New</p>
+            <h3 class="title">Popular Categories</h3>
+          </div>
+          <div class="product_detail">
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4"></div>
+              <div class="col-4"></div>
+              <div class="col-4"></div>
+              <div class="col-4"></div>
+              <div class="col-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
