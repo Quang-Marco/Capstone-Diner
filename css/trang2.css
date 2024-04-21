@@ -227,6 +227,10 @@
     height: 57vh;
     background-color: black;
   }
+  footer a {
+    text-decoration: none;
+
+  }
   footer .col-lg-4 .footer_text_1,
   footer .row .col-lg-2 .text_color {
     font-size: 17px;
@@ -303,4 +307,4 @@
       border-top: 1px solid rgb(255 255 255 / 5%);
   }
   /* END FOOTER */
-  /* ENDFOOTER */
+  
