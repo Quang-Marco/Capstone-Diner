@@ -34,6 +34,9 @@
       rel="stylesheet"
     />
 
+    <!-- Contact CSS -->
+    <link rel="stylesheet" href="css/contact.css" />
+
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -64,16 +67,18 @@
       </div>
     </header>
 
-    <section class="banner_contact">
+    <section
+      class="banner_contact d-flex justify-content-center align-items-center"
+    >
       <nav
-        style="--bs-breadcrumb-divider: '>>'"
+        style="--bs-breadcrumb-divider: ''"
         aria-label="breadcrumb"
         class="arrow"
       >
         <ol class="breadcrumb">
-          <li class="breadcrumb-item text_color"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active next_text" aria-current="page">
-            Contact Page
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">
+            » Contact page
           </li>
         </ol>
       </nav>
@@ -84,9 +89,9 @@
         <div
           class="contact_us_title d-flex justify-content-center align-items-center flex-column"
         >
-          <p class="sub_title m-0">Get in touch</p>
+          <h6 class="sub_title">Get in touch</h6>
           <h2 class="title title_contact">Contact us</h2>
-          <p class="text text-center mb-5">
+          <p class="text text-center mt-3 mb-5">
             Start working with Us that can provide everything you need to
             generate awareness, drive traffic, connect. <br />
             We guarantee that you’ll be able to have any issue resolved within
@@ -96,94 +101,106 @@
         <div class="contact_us_content">
           <div class="row">
             <div class="col-4">
-              <input class="p-2 width_input" type="text" placeholder="Name" />
-            </div>
-            <div class="col-4">
-              <input class="p-2 width_input" type="email" placeholder="Email" />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Name"
+                aria-label="Name"
+              />
             </div>
             <div class="col-4">
               <input
-                class="p-2 width_input"
-                type="text"
-                placeholder="Subject"
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
               />
             </div>
-          </div>
-          <div class="row mt-3 row_2">
-            <div class="col-12 w-100 h-100">
+            <div class="col-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Subject"
+                aria-label="Subject"
+              />
+            </div>
+            <div class="col-12 pt-3">
               <textarea
-                class="w-100 h-100 message"
+                class="form-control"
                 type="text"
                 placeholder="Message"
               ></textarea>
             </div>
           </div>
         </div>
-        <div class="send mt-4">
-          <button>Send Message</button>
+        <div class="text-end pt-4">
+          <button class="btn btn_orange">Send Message</button>
         </div>
       </div>
     </section>
 
-    <section class="find_us">
-      <div class="container d-flex">
-        <div class="find_left w-25">
-          <div class="find_left_title mb-5">
-            <p class="sub_title mb-0">Find Us</p>
-            <h2 class="title">Additional Infor</h2>
-          </div>
-
-          <div class="find_left_content">
-            <div class="phone d-flex">
-              <i class="fa fa-phone"></i>
-              <div class="phone-right">
+    <section class="find_us pb-5">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col-3">
+            <div class="find_left_title pb-4">
+              <p class="sub_title">Find Us</p>
+              <h2 class="title">Additional Info</h2>
+            </div>
+            <div class="find_left_content row gy-2">
+              <div class="col-2">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="col-10">
                 <h5>Phone number</h5>
                 <p>
-                  <a href="tel:+(21) 255 088 4943" class="text underline_text"
+                  <a href="tel:+(21) 255 088 4943" class="text"
                     >+(21) 255 088 4943</a
                   >
                 </p>
               </div>
-            </div>
-            <div class="email d-flex">
-              <i class="fa-regular fa-envelope"></i>
-              <div class="email_right">
+              <div class="col-2">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="col-10">
                 <h5>Send Email</h5>
                 <p>
-                  <a href="mailto:diner@mail.com" class="text underline_text"
+                  <a href="mailto:diner@mail.com" class="text"
                     >diner@mail.com</a
                   >
                 </p>
               </div>
-            </div>
-            <div class="address d-flex">
-              <i class="fa-solid fa-location-dot"></i>
-              <div class="address_right">
+              <div class="col-2">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="col-10">
                 <h5>Office Address</h5>
                 <p>
-                  <a href="tel:+(21) 255 088 4943" class="text"
+                  <a
+                    href="tel:+(21) 255 088 4943"
+                    class="text text-decoration-none"
                     >Address here, 434 Food Honey street, London, UK - 62617.</a
                   >
                 </p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="find_right w-75">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.5851966824!2d-0.2664051595240117!3d51.52852620095036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2zTHXDom4gxJDDtG4sIFbGsMahbmcgUXXhu5FjIEFuaA!5e0!3m2!1svi!2s!4v1713611855040!5m2!1svi!2s"
-            width="100%"
-            height="400"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div class="col-9 ps-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.5851966824!2d-0.2664051595240117!3d51.52852620095036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2zTHXDom4gxJDDtG4sIFbGsMahbmcgUXXhu5FjIEFuaA!5e0!3m2!1svi!2s!4v1713611855040!5m2!1svi!2s"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer pb-0 pt-5 ">
+    <footer class="footer pt-5">
       <div class="container ps-2 pe-2 py-lg-4">
         <div class="footer_upper">
           <div class="row">
@@ -215,9 +232,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <h3 class="text-white">
-                  Subscribe to our Newsletter</a>
-              </h3>
+              <h3 class="text-white">Subscribe to our Newsletter</h3>
               <p class="footer_text_1 mt-4 mb-4">
                 Enter your email and receive the latest news, updates and
                 special offers from us.
@@ -226,20 +241,22 @@
                 <input
                   type="email"
                   placeholder="Your Email Address "
-                  class="w-100 p-5"
+                  class="form-control"
                 />
                 <button class="btn_footer w-100 p-3 mt-3">Subcribe Now</button>
               </div>
             </div>
           </div>
         </div>
-        
       </div>
       <div class="footer_bottom mt-5">
         <div class="container">
-            <p>© 2024 Diner. All Rights Reserved | WordPress Theme by <a class="copy_color">W3Layouts.</a></p>
+          <p>
+            © 2024 Diner. All Rights Reserved | WordPress Theme by
+            <a class="copy_color">W3Layouts.</a>
+          </p>
         </div>
-        </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
