@@ -15,6 +15,7 @@ body {
 a {
   text-decoration: none;
   background-color: transparent;
+  display: inline;
 }
 
 .container {
@@ -201,115 +202,6 @@ header .form-control:focus {
 
 /* END TABLE_BOOK */
 
-/* CONTACT CSS */
-.banner_contact {
-  background: linear-gradient(to right, rgb(236 98 6 / 98%), rgb(5 3 0 / 83%)),
-    url(../img/banner2.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 48vh;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  text-align: center;
-}
-
-.banner_contact .text_color a {
-  color: #ff6600;
-  font-weight: 600;
-  /* font-size: 18px; */
-}
-.banner_contact .next_text {
-  color: white;
-}
-.width_input {
-  width: 380px;
-}
-.contact_us_content .row .col-4 input {
-  border: 1px solid transparent;
-  border-radius: 5px;
-  color: rgba(22, 28, 45, 0.7);
-  font-size: 18px;
-  padding: 12px 20px !important;
-
-  line-height: 28px;
-  background-color: #f7f7f7;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-.contact_us_content .row .col-4 input:focus {
-  outline: none;
-  background-color: transparent;
-  border: 1px solid #ff6600;
-}
-.contact_us_content .row_2 .message,
-.footer .col-3_input_form input {
-  border: 1px solid transparent;
-  border-radius: 5px;
-  color: rgba(22, 28, 45, 0.7);
-  font-size: 18px;
-  padding: 12px 20px !important;
-
-  line-height: 28px;
-  background-color: #f7f7f7;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-.contact_us_content .row_2 .message:focus {
-  outline: none;
-  background-color: transparent;
-  border: 1px solid #ff6600;
-}
-.contact_us_content .row_2 {
-  height: 28vh;
-}
-.contact_us .contact_us_title .title_contact {
-  margin-bottom: 24px;
-}
-.contact_us .send {
-  text-align: right;
-}
-.contact_us .send button {
-  padding: 16px 50px;
-  background-color: #ff6600;
-  color: white;
-  border: transparent;
-  border-radius: 5px;
-  transition: all 0.5s;
-}
-.contact_us .send button:hover {
-  opacity: 0.8;
-}
-/* END CONTACT CSS */
-/* FIND US */
-.find_us .find_left_content i {
-  padding-top: 5px;
-  margin-right: 18px;
-  font-size: 18px;
-  color: #ff6600;
-}
-.find_us .find_left_content p {
-  margin-bottom: 1.5rem;
-}
-.find_us .find_left_content h5 {
-  font-size: 20px;
-  color: #232121;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-.find_us .find_right {
-  padding: 0 30px 20px;
-  height: 400;
-}
-.find_us .find_left_content .underline_text:hover {
-  text-decoration: underline;
-}
-.find_us .find_right iframe {
-  border-radius: 6px;
-  background-color: #f7f7f7;
-  padding: 10px;
-}
-/* END FIND US */
 /* FOOTER */
 
 footer {
@@ -323,12 +215,11 @@ footer .text_color {
 }
 
 footer .row .text_hover {
-  display: block;
   transition: all 0.5s;
 }
 
 footer .row .text_hover:hover {
-  color: #ff6600;
+  color: #ff6600 !important;
 }
 
 footer .social a {
@@ -371,24 +262,16 @@ footer .copy_color {
   transition: all 0.5s;
 }
 
-.footer .col-3_input_form .btn_footer:hover {
-  opacity: 0.8;
-}
-.footer .copy_color {
-  color: #ff6600;
-  transition: all 0.5s;
-}
-.footer .copy_color:hover {
 footer .copy_color:hover {
   color: white;
 }
-.footer .footer_bottom {
+
+footer .footer_bottom {
   color: #ddd;
+  background: black;
   font-size: 17px;
-  padding: 1.2em 0;
-  background: #000;
+  padding: 20px 0;
+  border-top: 1px solid rgb(255 255 255 / 5%);
 }
-
-
 
 /* END FOOTER */
