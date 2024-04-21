@@ -1,0 +1,116 @@
+/* CONTETNT */
+
+.content {
+  color: black;
+  margin-top: 300px;
+}
+.content .content_both {
+  display: flex;
+  justify-content: space-between;
+}
+.content_both .content_left {
+  width: 50%;
+}
+.content_both .content_right {
+  width: 50%;
+}
+
+/* END CONTENT  */
+
+/* FEATURE */
+/* .feature {
+    padding: 100px 0;
+  } */
+.feature .box_wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  gap: 65px;
+  text-align: center;
+}
+
+.feature .box {
+  padding: 40px;
+  background-color: rgba(248, 245, 245, 0.692);
+  transition: all 0.5;
+}
+.box_icon span {
+  padding: 25px;
+  color: #ff6600;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: rgba(130, 115, 252, 0.05);
+}
+.feature .box:hover .box_icon span {
+  background-color: #fb6102;
+  color: white;
+}
+.box_info h2 {
+  padding-bottom: 30px;
+}
+
+/* ENDFEATURE */
+
+/* TASTE  */
+.taste {
+  background-image: url(../img/banner2.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  margin: 30px 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.taste::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(16 15 19 / 66%);
+  position: absolute;
+  z-index: -1;
+}
+.taste .taste_content {
+  padding: 180px 0;
+}
+.taste .taste_content button {
+  padding: 15px 40px;
+  border-radius: 10px;
+  margin: 0 10px;
+  color: white;
+  transition: all 0.5s;
+}
+.taste .taste_content .fish {
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.007);
+}
+.taste .taste_content button:last-child {
+  background-color: #ff6600;
+}
+.taste .taste_content .fish:hover {
+  background-color: white;
+  color: #ff6600;
+}
+.taste .taste_content button:last-child:hover {
+  opacity: 0.8;
+}
+/* END TASTE  */
+
+/* MENU  */
+.menu .menu_title {
+  /* width: 100%; */
+  /* text-align: center; */
+}
+
+.menu_dish {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted #bbb;
+}
+
+/* ENDMENU */
