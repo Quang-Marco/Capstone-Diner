@@ -20,6 +20,9 @@
   color: black;
   margin-top: 300px;
 }
+.menu_all .col-6 {
+  margin: 10px 0;
+}
 .content .content_both {
   display: flex;
   justify-content: space-between;
