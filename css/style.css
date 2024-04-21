@@ -163,6 +163,18 @@ header .form-control:focus {
 .right_bottom-left:hover i {
   color: #ffc600;
 }
+<<<<<<< HEAD
+/* END BOOK */
+
+
+
+
+/* SERVICES */
+
+
+
+/* END SERVICES */
+=======
 
 /* END TABLE_BOOK */
 
@@ -356,3 +368,4 @@ footer .col-lg-4 .social a:hover {
     border-top: 1px solid rgb(255 255 255 / 5%);
 }
 /* END FOOTER */
+>>>>>>> d0cbed54c68c1554e3296054e5d7b72edb872fc0
