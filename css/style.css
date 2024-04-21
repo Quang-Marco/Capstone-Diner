@@ -192,6 +192,8 @@ header .form-control:focus {
 .width_input {
   width: 380px;
 }
+
+
 .contact_us_content .row .col-4 input {
   border: 1px solid transparent;
   border-radius: 5px;
@@ -266,8 +268,8 @@ header .form-control:focus {
   padding: 0 30px 20px;
   height: 400;
 }
-.find_us .find_left_content .underline_text:hover{
-   text-decoration: underline;
+.find_us .find_left_content .underline_text:hover {
+  text-decoration: underline;
 }
 .find_us .find_right iframe {
   border-radius: 6px;
@@ -303,7 +305,7 @@ footer .col-lg-4 .social a {
   background-color: white;
   color: #ff6600;
 }
-footer .col-lg-4 .social i{
+footer .col-lg-4 .social i {
   line-height: 36px;
 }
 footer .col-lg-4 .social a + a {
@@ -341,18 +343,18 @@ footer .col-lg-4 .social a:hover {
 .footer .col-3_input_form .btn_footer:hover {
   opacity: 0.8;
 }
-.footer .copy_color{
+.footer .copy_color {
   color: #ff6600;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.footer .copy_color:hover{
+.footer .copy_color:hover {
   color: white;
 }
-.footer .footer_bottom{
-      color: #ddd;
-    font-size: 17px;
-    padding: 1.2em 0;
-    background: #000;
-    border-top: 1px solid rgb(255 255 255 / 5%);
+.footer .footer_bottom {
+  color: #ddd;
+  font-size: 17px;
+  padding: 1.2em 0;
+  background: #000;
+  border-top: 1px solid rgb(255 255 255 / 5%);
 }
 /* END FOOTER */
