@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Quicksand", sans-serif;
+  }
+  .sub_title {
+    font-family: "Pacifico", cursive;
+    color: #ff6600;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  .title {
+    max-width: 600px;
+    text-align: left;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 400;
+    color: black;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(22, 28, 45, 0.7);
+    line-height: 1.8;
+  }
+  .header_title {
+    display: inline-block;
+  }
+  header .navbar-brand {
+    font-size: 36px;
+    color: white;
+  }
+  
+  header form i {
+    right: 25px;
+    top: 16px;
+  }
+  
+  header form {
+    height: 50px;
+    width: 80%;
+  }
+  
+  header .navbar_right {
+    width: 30%;
+  }
+  
+  header .navbar_right > i {
+    font-size: 30px;
+    color: white;
+  }
+  
+  header .navbar_right .fa-moon {
+    font-size: 25px;
+    padding: 0 20px;
+  }
+  
+  header .form-control {
+    border: transparent;
+  }
+  
+  header .form-control:focus {
+    box-shadow: none;
+  }
+.header_content {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  font-size: 18px;
+  color: white;
+}
+.header_content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.header_title a {
+  margin-right: 10px;
+  color: #FB6102;
+    font-weight: 600;
+    text-decoration: none;
+}
+  header {
+    background-image: linear-gradient(to right, rgb(236 98 6 / 98%), rgb(5 3 0 / 83%)),
+    url(../img/banner2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 35vh; */
+    background-position: center;
+    
+  }
+
+
+  /* CONTETNT */
+  .content {
+    color: black;
+    margin-top: 300px;
+  }
+  .content .content_both {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content_both .content_left {
+    width: 50%;
+  }
+  .content_both .content_right {
+    width: 50%;
+  }
+
+
+  /* END CONTENT  */
+ 
+
+  /* FEATURE */
+  /* .feature {
+    padding: 100px 0;
+  } */
+  .feature .box_wrap {
+   display: grid;
+   grid-template-columns: repeat( 2,40px );
+   gap: 65px;
+   text-align: center;
+  }
+  
+  .feature .box {
+    padding: 40px;
+    background-color: rgba(248, 245, 245, 0.692);
+    transition: all 0.5;
+  }
+  .box_icon span {
+     padding: 25px;
+     color: #ff6600;
+     font-size: 25px;
+     border-radius: 10px;
+     background-color: rgba(130, 115, 252, .05);
+  }
+  .feature .box:hover .box_icon span {
+    background-color: #FB6102;
+    color: white;
+  }
+  .box_info h2 {
+    padding-bottom: 30px ;
+  }
+
+
+  /* ENDFEATURE */
+
+  /* TASTE  */
+  .taste {
+    background-image: url(../img/banner2.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+     margin: 30px 0;
+     text-align: center;
+     position: relative;
+     z-index: 1;
+  }
+  .taste::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(16 15 19 / 66%);
+    position: absolute;
+    z-index: -1;
+  }
+  .taste .taste_content  {
+    padding: 180px 0;
+  }
+  .taste .taste_content button {
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin: 0 10px;
+    color: white;
+    transition: all 0.5s;
+  }
+  .taste .taste_content .fish {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.007);
+  }
+  .taste .taste_content button:last-child {
+    background-color: #ff6600;
+  }
+  .taste .taste_content .fish:hover{
+    background-color: white;
+    color: #ff6600;
+  }
+  .taste .taste_content button:last-child:hover {
+    opacity: 0.8;
+  }
+  /* END TASTE  */
+
+  /* MENU  */
+.menu .menu_title{
+  /* width: 100%; */
+  /* text-align: center; */
+}
+
+.menu_dish {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  padding-bottom: 10px;
+    border-bottom: 2px dotted #bbb;
+}
+
+  /* ENDMENU */
