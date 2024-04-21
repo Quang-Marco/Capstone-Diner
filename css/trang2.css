@@ -97,7 +97,7 @@
     url(../img/banner2.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: 35vh; */
+    height: 35vh;
     background-position: center;
     
   }
@@ -106,7 +106,7 @@
   /* CONTETNT */
   .content {
     color: black;
-    margin-top: 300px;
+    margin-top: 400px;
   }
   .content .content_both {
     display: flex;
@@ -207,10 +207,6 @@
   /* END TASTE  */
 
   /* MENU  */
-.menu .menu_title{
-  /* width: 100%; */
-  /* text-align: center; */
-}
 
 .menu_dish {
   display: flex;
@@ -219,7 +215,9 @@
   padding-bottom: 10px;
     border-bottom: 2px dotted #bbb;
 }
-
+.menu_all .col-6 {
+  margin: 10px 0;
+}
   /* ENDMENU */
   
   /* FOOTER  */
