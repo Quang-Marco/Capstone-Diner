@@ -13,3 +13,97 @@
 }
 
 /* END BANNER_CONTACT */
+
+/*  */
+
+/* STORY */
+
+.story .text_orange {
+  color: #ff6600;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.story .text_orange:hover {
+  color: #ffc600;
+}
+
+/* END STORY */
+
+/*  */
+
+/* SKILLS */
+
+.skills {
+  background-color: #f7f7f7;
+}
+
+.skills .progress_title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #232121;
+  margin-bottom: 10px;
+}
+
+.skills .progress {
+  height: 6px;
+  overflow: hidden;
+  background-color: rgba(22, 28, 45, 0.7);
+  border-radius: 3px;
+}
+
+.skills .progress .progress-bar {
+  background-color: #ff6600;
+}
+
+/* END SKILLS */
+
+/*  */
+
+/* CHEF */
+
+.chef .row a {
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #232121;
+  display: block;
+}
+
+.chef .chef_img .chef_img_overlay {
+  position: absolute;
+  left: 0;
+  bottom: 12%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.chef .chef_img:hover .chef_img_overlay {
+  opacity: 1;
+}
+
+.chef .row .col-lg-4:hover > a {
+  color: #ff6600;
+}
+
+.chef .chef_img .overlay_social a {
+  display: inline-block;
+  font-size: 16px;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  background-color: rgba(157, 157, 157, 0.5);
+  margin-right: 8px;
+}
+
+.chef .chef_img .overlay_social a:hover {
+  color: #ff6600;
+  background-color: white;
+}
+
+/* END CHEF */

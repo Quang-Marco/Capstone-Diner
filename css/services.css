@@ -37,9 +37,7 @@
 /* END CONTENT  */
 
 /* FEATURE */
-/* .feature {
-    padding: 100px 0;
-  } */
+
 .feature .box_wrap {
   display: grid;
   grid-template-columns: repeat(2, 40px);
@@ -70,11 +68,10 @@
 /* ENDFEATURE */
 
 /* TASTE  */
+
 .taste {
-  background-image: url(../img/banner2.jpg);
+  background: url(../img/banner2.jpg) no-repeat center / cover;
   height: 50vh;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   color: white;
   margin: 30px 0;
@@ -82,6 +79,7 @@
   position: relative;
   z-index: 1;
 }
+
 .taste::before {
   content: "";
   top: 0;
@@ -92,9 +90,11 @@
   position: absolute;
   z-index: -1;
 }
+
 .taste .taste_content {
   padding: 180px 0;
 }
+
 .taste .taste_content button {
   padding: 15px 40px;
   border-radius: 10px;
@@ -102,20 +102,25 @@
   color: white;
   transition: all 0.5s;
 }
+
 .taste .taste_content .fish {
   border: 2px solid white;
   background-color: rgba(255, 255, 255, 0.007);
 }
+
 .taste .taste_content button:last-child {
   background-color: #ff6600;
 }
+
 .taste .taste_content .fish:hover {
   background-color: white;
   color: #ff6600;
 }
+
 .taste .taste_content button:last-child:hover {
   opacity: 0.8;
 }
+
 /* END TASTE  */
 
 /* MENU  */
