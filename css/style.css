@@ -6,6 +6,7 @@
 
 body {
   font-family: "Quicksand", sans-serif;
+  
   text-align: left;
   color: #212529;
 }
@@ -13,7 +14,7 @@ body {
 a {
   text-decoration: none;
   background-color: transparent;
-  transition: all 0.5s;
+  display:inline;
 }
 
 /* LIBRARY */
@@ -380,12 +381,11 @@ footer .text_color {
 }
 
 footer .row .text_hover {
-  display: block;
   transition: all 0.5s;
 }
 
 footer .row .text_hover:hover {
-  color: #ff6600;
+  color: #ff6600 !important;
 }
 
 footer .social a {
