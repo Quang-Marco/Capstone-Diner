@@ -92,8 +92,16 @@ a {
 
 /* TOGGLE */
 
-body.dark {
+.dark#dark {
   background-color: #232220;
+}
+
+.dark .toggle .fa-moon {
+  display: none;
+}
+
+.dark .toggle .fa-sun {
+  display: block;
 }
 
 .header_overlay.hide {
