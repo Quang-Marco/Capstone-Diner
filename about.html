@@ -41,28 +41,49 @@
   </head>
 
   <body>
-    <header class="p-3 position-absolute top-0 start-0 w-100">
+    <header class="position-absolute top-0 start-0 w-100 pt-4">
       <div class="container">
-        <nav class="navbar">
-          <div class="container-fluid">
-            <a class="navbar-brand title text-white" href="#">Diner</a>
-            <div
-              class="navbar_right d-flex justify-content-between align-items-center"
-            >
-              <form class="position-relative" role="search">
-                <input
-                  class="form-control position-relative me-2"
-                  type="search"
-                  placeholder="Search here.."
-                  aria-label="Search"
-                />
-                <i class="fa fa-search position-absolute"></i>
-              </form>
-              <i class="fa-regular fa-moon"></i>
-              <i class="fa fa-bars" aria-hidden="true"></i>
+        <div class="header_content">
+          <nav class="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand title text-white" href="#">Diner</a>
+              <div
+                class="navbar_right d-flex justify-content-between align-items-center"
+              >
+                <form class="position-relative" role="search">
+                  <input
+                    class="form-control fs-6 position-relative me-2"
+                    type="search"
+                    placeholder="Search here.."
+                    aria-label="Search"
+                  />
+                  <i class="fa fa-search position-absolute"></i>
+                </form>
+                <button class="toggle">
+                  <i class="fa-regular fa-moon"></i>
+                  <i class="fa-regular fa-sun"></i>
+                </button>
+                <button class="overlay_hide">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+              </div>
             </div>
+          </nav>
+          <div class="header_overlay">
+            <button type="button" class="overlay_close rounded-2">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+            <nav
+              class="nav h-100 flex-column justify-content-center align-items-center"
+            >
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="404page.html">404 page</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </nav>
           </div>
-        </nav>
+        </div>
       </div>
     </header>
 
@@ -331,5 +352,21 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Header overlay JS  -->
+
+    <script>
+      document.querySelector(".overlay_hide").onclick = function () {
+        document.querySelector(".header_overlay").classList.toggle("hide");
+      };
+
+      document.querySelector(".overlay_close").onclick = function () {
+        document.querySelector(".header_overlay").classList.toggle("hide");
+      };
+
+      document.querySelector(".toggle").onclick = function () {
+        document.querySelector("body").classList.toggle("dark");
+      };
+    </script>
   </body>
 </html>
