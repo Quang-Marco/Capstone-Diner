@@ -90,6 +90,17 @@ a {
   box-shadow: none;
 }
 
+/* TOGGLE */
+
+body.dark {
+  background-color: #232220;
+}
+
+.header_overlay.hide {
+  visibility: visible;
+  z-index: 9999;
+}
+
 /* HEADER */
 
 header .title {
@@ -101,15 +112,15 @@ header .navbar_right .fa-search {
   top: 16px;
 }
 
-header .navbar_right .fa-moon {
+header .navbar_right .fa-moon,
+header .navbar_right .fa-sun {
   font-size: 25px;
   color: white;
   padding: 0 20px;
 }
 
-header .navbar_right .fa-bars {
-  font-size: 30px;
-  color: white;
+header .navbar_right .fa-sun {
+  display: none;
 }
 
 header .navbar .form-control {
@@ -119,6 +130,48 @@ header .navbar .form-control {
 
 header .form-control:focus {
   box-shadow: none;
+}
+
+header .navbar .overlay_hide,
+header .navbar .toggle {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 30px;
+  color: #fbfdfb;
+}
+
+header .header_overlay {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background: rgb(6 3 0 / 77%);
+}
+
+header .header_overlay .overlay_close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  overflow: hidden;
+  border: none;
+  color: white;
+  background-color: #ff6600;
+}
+
+header .header_overlay .nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+header .header_overlay .nav-link:hover {
+  color: #ff6600;
 }
 
 /* END HEADER */
