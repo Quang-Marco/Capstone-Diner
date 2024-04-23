@@ -339,7 +339,7 @@ header .header_overlay .nav-link:hover {
   background-color: #ff6600;
 }
 
-/* ENDFEATURE */
+/* END FEATURE */
 
 /*  */
 
@@ -388,12 +388,11 @@ footer .text_color {
 }
 
 footer .row .text_hover {
-  display: block;
   transition: all 0.5s;
 }
 
 footer .row .text_hover:hover {
-  color: #ff6600;
+  color: #ff6600 !important;
 }
 
 footer .social a {
