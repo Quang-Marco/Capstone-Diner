@@ -37,51 +37,58 @@
 /* END CONTENT  */
 
 /* FEATURE */
-/* .feature {
-    padding: 100px 0;
-  } */
-.feature .box_wrap {
-  display: grid;
-  grid-template-columns: repeat(2, 40px);
-  gap: 65px;
-  text-align: center;
-}
 
-.feature .box {
+.feature .feature_box {
   padding: 40px;
-  background-color: rgba(248, 245, 245, 0.692);
+  border: 1px solid #eee;
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
   transition: all 0.5;
 }
-.box_icon span {
-  padding: 25px;
+
+.feature .feature_box:hover {
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
+}
+
+.feature .feature_box a {
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  color: #232121;
+}
+
+.feature .feature_box a:hover {
   color: #ff6600;
+}
+
+.feature .feature_box i {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
   font-size: 25px;
   border-radius: 10px;
+  color: #ff6600;
   background-color: rgba(130, 115, 252, 0.05);
+  transition: all 0.5s;
 }
-.feature .box:hover .box_icon span {
-  background-color: #fb6102;
+
+.feature .feature_box:hover i {
   color: white;
-}
-.box_info h2 {
-  padding-bottom: 30px;
+  background-color: #ff6600;
 }
 
 /* ENDFEATURE */
 
 /* TASTE  */
+
 .taste {
-  background-image: url(../img/banner2.jpg);
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background: url(../img/banner2.jpg) no-repeat center / cover;
   color: white;
-  margin: 30px 0;
   text-align: center;
   position: relative;
   z-index: 1;
 }
+
 .taste::before {
   content: "";
   top: 0;
@@ -92,41 +99,23 @@
   position: absolute;
   z-index: -1;
 }
-.taste .taste_content {
-  padding-top: 90px;
-}
-.taste .taste_content button {
-  padding: 15px 40px;
-  border-radius: 10px;
-  margin: 0 10px;
+
+.taste .taste_content h2 {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
   color: white;
-  transition: all 0.5s;
 }
-.taste .taste_content .fish {
-  border: 2px solid white;
-  background-color: rgba(255, 255, 255, 0.007);
-}
-.taste .taste_content button:last-child {
-  background-color: #ff6600;
-}
-.taste .taste_content .fish:hover {
-  background-color: white;
-  color: #ff6600;
-}
-.taste .taste_content button:last-child:hover {
-  opacity: 0.8;
-}
+
 /* END TASTE  */
 
 /* MENU  */
-.menu .menu_title {
-  /* width: 100%; */
-  /* text-align: center; */
-}
+
 .dish_price {
   color: #fb6102;
   font-weight: 600;
 }
+
 .menu_dish {
   display: flex;
   justify-content: space-between;

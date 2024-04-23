@@ -1,6 +1,4 @@
-*,
-*::after,
-*::before {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -17,6 +15,8 @@ a {
   background-color: transparent;
   display: inline;
 }
+
+/* LIBRARY */
 
 .container {
   max-width: 1200px;
@@ -74,7 +74,6 @@ a {
   line-height: 28px;
   color: rgba(22, 28, 45, 0.7);
   letter-spacing: 1px;
-  text-align: justify;
 }
 
 .form-control {
@@ -91,6 +90,17 @@ a {
   box-shadow: none;
 }
 
+/* TOGGLE */
+
+body.dark {
+  background-color: #232220;
+}
+
+.header_overlay.hide {
+  visibility: visible;
+  z-index: 9999;
+}
+
 /* HEADER */
 
 header .title {
@@ -102,25 +112,66 @@ header .navbar_right .fa-search {
   top: 16px;
 }
 
-header .navbar_right .fa-moon {
+header .navbar_right .fa-moon,
+header .navbar_right .fa-sun {
   font-size: 25px;
   color: white;
   padding: 0 20px;
 }
 
-header .navbar_right .fa-bars {
-  font-size: 30px;
-  color: white;
+header .navbar_right .fa-sun {
+  display: none;
 }
 
 header .navbar .form-control {
-  padding: 10px 50px 10px 20px;
   height: 45px;
   border: 1px solid transparent;
 }
 
 header .form-control:focus {
   box-shadow: none;
+}
+
+header .navbar .overlay_hide,
+header .navbar .toggle {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 30px;
+  color: #fbfdfb;
+}
+
+header .header_overlay {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background: rgb(6 3 0 / 77%);
+}
+
+header .header_overlay .overlay_close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  overflow: hidden;
+  border: none;
+  color: white;
+  background-color: #ff6600;
+}
+
+header .header_overlay .nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+header .header_overlay .nav-link:hover {
+  color: #ff6600;
 }
 
 /* END HEADER */
@@ -202,6 +253,120 @@ header .form-control:focus {
 
 /* END TABLE_BOOK */
 
+/*  */
+
+/* PRODUCTS */
+
+.products {
+  background-color: #f7f7f7;
+}
+
+.products .products_text {
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+}
+
+.products .products_text .text {
+  color: #ffc600;
+}
+
+.products .products_text .products_text_title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  color: white;
+}
+
+.products .row .col-lg-4 {
+  transition: all 0.5s;
+}
+
+.products .row .col-lg-4:hover {
+  opacity: 0.8;
+}
+
+/* END PRODUCTS */
+
+/*  */
+
+/* FEATURE */
+
+.feature .feature_box {
+  padding: 40px;
+  border: 1px solid #eee;
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
+  transition: all 0.5;
+}
+
+.feature .feature_box:hover {
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
+}
+
+.feature .feature_box a {
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  color: #232121;
+}
+
+.feature .feature_box a:hover {
+  color: #ff6600;
+}
+
+.feature .feature_box i {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  color: #ff6600;
+  background-color: rgba(130, 115, 252, 0.05);
+  transition: all 0.5s;
+}
+
+.feature .feature_box:hover i {
+  color: white;
+  background-color: #ff6600;
+}
+
+/* ENDFEATURE */
+
+/*  */
+
+/* TASTE  */
+
+.taste {
+  background: url(../img/banner2.jpg) no-repeat center / cover;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.taste::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(16 15 19 / 66%);
+  position: absolute;
+  z-index: -1;
+}
+
+.taste .taste_content h2 {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  color: white;
+}
+
+/* END TASTE  */
+
+/*  */
+
 /* FOOTER */
 
 footer {
@@ -232,7 +397,6 @@ footer .social a {
   background-color: white;
   color: #ff6600;
   margin-right: 8px;
-  transition: all 0.5s;
 }
 
 footer .social a:hover {
