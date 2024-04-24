@@ -90,11 +90,7 @@ a {
   box-shadow: none;
 }
 
-/* TOGGLE */
-
-.dark#dark {
-  background-color: #232220;
-}
+/* TOGGLE DARK THEME */
 
 .dark .toggle .fa-moon {
   display: none;
@@ -102,6 +98,42 @@ a {
 
 .dark .toggle .fa-sun {
   display: block;
+}
+
+.dark#dark,
+.dark .products,
+.dark .social a {
+  background-color: #282828;
+}
+
+.dark .form-control,
+.dark .feature {
+  background-color: #232220;
+  caret-color: #a5a2a1;
+}
+
+.dark .feature .feature_box {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .title,
+.dark .feature .feature_box a,
+.dark .error a {
+  color: rgb(238, 238, 238);
+}
+
+.dark .text {
+  color: rgb(194, 208, 218);
+}
+
+.dark .form-control::placeholder,
+.dark .navbar .fa-search {
+  color: #a5a2a1;
+}
+
+.dark .find_us iframe {
+  filter: grayscale(100%);
+  background-color: #282828;
 }
 
 .header_overlay.hide {
@@ -113,6 +145,7 @@ a {
 
 header .title {
   font-size: 36px;
+  font-weight: 700;
 }
 
 header .navbar_right .fa-search {
@@ -124,7 +157,7 @@ header .navbar_right .fa-moon,
 header .navbar_right .fa-sun {
   font-size: 25px;
   color: white;
-  padding: 0 20px;
+  margin: 0 30px 0 20px;
 }
 
 header .navbar_right .fa-sun {
@@ -139,6 +172,8 @@ header .navbar .form-control {
 header .form-control:focus {
   box-shadow: none;
 }
+
+/* OVERLAY */
 
 header .navbar .overlay_hide,
 header .navbar .toggle {

@@ -33,13 +33,14 @@
 
 .error .form-control {
   color: rgba(22, 28, 45, 0.7);
+  background-color: #f7f7f7;
   padding: 12px 120px 12px 25px;
   font-size: 18px;
   line-height: 28px;
   height: 55px;
-  background: #f7f7f7;
   display: block;
   font-weight: 500;
+  border: 1px solid #ced4da;
 }
 
 .error a {

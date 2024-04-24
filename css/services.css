@@ -14,27 +14,7 @@
 
 /* END BANNER_CONTACT */
 
-/* CONTETNT */
-
-.content {
-  color: black;
-  margin-top: 300px;
-}
-.menu_all .col-6 {
-  margin: 10px 0;
-}
-.content .content_both {
-  display: flex;
-  justify-content: space-between;
-}
-.content_both .content_left {
-  width: 50%;
-}
-.content_both .content_right {
-  width: 50%;
-}
-
-/* END CONTENT  */
+/*  */
 
 /* FEATURE */
 
