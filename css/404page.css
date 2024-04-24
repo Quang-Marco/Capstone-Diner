@@ -43,7 +43,7 @@
   border: 1px solid #ced4da;
 }
 
-.error a {
+.error .error_content a {
   font-size: 18px;
   font-weight: 600;
   display: inline-block;
@@ -51,6 +51,6 @@
   letter-spacing: 0;
 }
 
-.error a:hover {
+.error .error_content a:hover {
   color: #ff6600;
 }
