@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Contact page</title>
+    <title>404 page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -10,7 +10,7 @@
     />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/contact_logo.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/404-error-page.jpg" type="image/x-icon" />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -41,8 +41,8 @@
       rel="stylesheet"
     />
 
-    <!-- Contact CSS -->
-    <link rel="stylesheet" href="css/contact.css" />
+    <!-- 404 Page CSS -->
+    <link rel="stylesheet" href="css/404page.css" />
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css" />
@@ -111,129 +111,43 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
           <li class="breadcrumb-item active text-white" aria-current="page">
-            » Contact page
+            » 404 page
           </li>
         </ol>
       </nav>
     </section>
 
-    <!-- CONTACT US -->
+    <!-- ERROR -->
 
-    <section class="contact_us py-5">
-      <div class="container py-lg-5 py-md-4">
-        <div
-          class="contact_us_title d-flex justify-content-center align-items-center flex-column"
-        >
-          <h6 class="sub_title">Get in touch</h6>
-          <h2 class="title title_contact">Contact Us</h2>
-          <p class="text text-center mt-3 mb-5">
-            Start working with Us that can provide everything you need to
-            generate awareness, drive traffic, connect. <br />
-            We guarantee that you’ll be able to have any issue resolved within
-            24 hours.
+    <section class="error py-5">
+      <div class="container py-5">
+        <div class="error_content text-center">
+          <h1 class="title">4<i class="fa-regular fa-face-frown"></i>4</h1>
+          <h2 class="title">Oops, Page not found!</h2>
+          <p class="text mt-4">
+            Sorry, we're offline right now to make our site even better. <br />
+            Please, comeback later and check what we've been upto.
           </p>
-        </div>
-        <div class="contact_us_content">
-          <div class="row">
-            <div class="col-4">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Name"
-                aria-label="Name"
-              />
-            </div>
-            <div class="col-4">
-              <input
-                type="email"
-                class="form-control"
-                placeholder="Email"
-                aria-label="Email"
-              />
-            </div>
-            <div class="col-4">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Subject"
-                aria-label="Subject"
-              />
-            </div>
-            <div class="col-12 pt-3">
-              <textarea
-                style="resize: none"
-                class="form-control"
-                type="text"
-                placeholder="Message"
-              ></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="text-end pt-4">
-          <button class="btn btn_orange">Send Message</button>
-        </div>
-      </div>
-    </section>
 
-    <!-- FIND US -->
-
-    <section class="find_us pb-5">
-      <div class="container">
-        <div class="row pb-5">
-          <div class="col-3">
-            <div class="find_left_title pb-4">
-              <p class="sub_title">Find Us</p>
-              <h2 class="title">Additional Info</h2>
+          <form
+            class="row gx-0 justify-content-center mt-md-5 mt-4"
+            role="search"
+          >
+            <div class="col-3">
+              <input
+                class="form-control rounded-2"
+                type="search"
+                placeholder="Enter your text"
+                aria-label="email"
+              />
             </div>
-            <div class="find_left_content row gy-2">
-              <div class="col-2">
-                <i class="fa fa-phone"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="title">Phone number</h5>
-                <p>
-                  <a href="tel:+(21) 255 088 4943" class="text"
-                    >+(21) 255 088 4943</a
-                  >
-                </p>
-              </div>
-              <div class="col-2">
-                <i class="fa-regular fa-envelope"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="title">Send Email</h5>
-                <p>
-                  <a href="mailto:diner@mail.com" class="text"
-                    >diner@mail.com</a
-                  >
-                </p>
-              </div>
-              <div class="col-2">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="title">Office Address</h5>
-                <p>
-                  <a
-                    href="tel:+(21) 255 088 4943"
-                    class="text text-decoration-none"
-                    >Address here, 434 Food Honey street, London, UK - 62617.</a
-                  >
-                </p>
-              </div>
+            <div class="col-2">
+              <button class="btn btn_orange" type="submit">Search</button>
             </div>
-          </div>
-          <div class="col-9 ps-5">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.5851966824!2d-0.2664051595240117!3d51.52852620095036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2zTHXDom4gxJDDtG4sIFbGsMahbmcgUXXhu5FjIEFuaA!5e0!3m2!1svi!2s!4v1713611855040!5m2!1svi!2s"
-              width="100%"
-              height="400"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+          </form>
+          <a href="index.html" class="mt-md-5 mt-4">
+            <i class="fa fa-arrow-left"></i> Back to Home</a
+          >
         </div>
       </div>
     </section>
@@ -294,6 +208,7 @@
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

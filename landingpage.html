@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Services</title>
+    <title>Diner</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -10,7 +10,7 @@
     />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/service_logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/Diner-logo.webp" type="image/x-icon" />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -33,7 +33,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -41,15 +41,19 @@
       rel="stylesheet"
     />
 
-    <!-- Services CSS -->
-    <link rel="stylesheet" href="./css/services.css" />
+    <!-- About CSS -->
+    <link rel="stylesheet" href="css/about.css" />
+
+    <!-- Contact CSS -->
+    <link rel="stylesheet" href="css/contact.css" />
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body id="dark">
-    <!-- Header -->
+    <!-- HEADER -->
+
     <header class="position-absolute top-0 start-0 w-100 pt-4">
       <div class="container">
         <div class="header_content">
@@ -97,30 +101,32 @@
       </div>
     </header>
 
-    <!-- Banner -->
-    <section
-      class="banner_contact d-flex justify-content-center align-items-center"
-    >
-      <nav
-        style="--bs-breadcrumb-divider: ''"
-        aria-label="breadcrumb"
-        class="arrow"
-      >
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active text-white" aria-current="page">
-            » Services page
-          </li>
-        </ol>
-      </nav>
+    <!-- BANNER -->
+
+    <section class="banner d-flex align-items-center">
+      <div class="container">
+        <div class="banner_content">
+          <h3 class="text-white">
+            The Only Thing We Love More Than Food Is You!
+          </h3>
+          <p class="text text-white fs-6 mt-4 mb-5">
+            Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+            vitae sit. Ea ipsum sed consequuntur illum facere.
+          </p>
+          <button type="button" class="btn btn_white">
+            Read More <i class="fa fa-chevron-right ms-2"></i>
+          </button>
+        </div>
+      </div>
     </section>
 
-    <!-- About_us -->
+    <!-- ABOUT -->
+
     <section class="about_us py-5">
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-5">
-            <h6 class="sub_title">What We Offer</h6>
+            <h6 class="sub_title">About Us</h6>
             <h2 class="title">
               We found our creative space that is open for you.
             </h2>
@@ -143,7 +149,183 @@
       </div>
     </section>
 
-    <!-- Feature -->
+    <!-- TABLE BOOK -->
+
+    <section class="table_book">
+      <div class="row gx-0">
+        <div class="table_book_left col-6 w-50 position-relative">
+          <img class="w-100 h-100" src="./img/banner3.jpg" alt="banner_3" />
+        </div>
+        <div class="table_book_right col-6 w-50 p-5">
+          <div class="right_top px-4 py-3">
+            <h6 class="sub_title text-white">More than 3000 Restaurants</h6>
+            <h2 class="title">Book a table easly at the best price</h2>
+            <p class="text">
+              Vestibulum ante ipsum primis in faucibus orci luctus turpis
+              sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam
+              tesque et libero ut justo ultrices in.
+            </p>
+          </div>
+          <div class="right_bottom row gx-5 px-4 py-3 justify-content-around">
+            <div class="right_bottom-left col-6">
+              <i class="fa fa-thumbs-up"></i>
+              <h6 class="title fs-5 py-2">Best Deals</h6>
+              <p class="text">
+                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+              </p>
+            </div>
+            <div class="right_bottom-right col-6">
+              <i class="fa fa-cutlery"></i>
+              <h6 class="title fs-5 py-2">Best Food</h6>
+              <p class="text">
+                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHEF -->
+
+    <section class="chef py-5">
+      <div class="container py-5">
+        <div class="chef_content">
+          <div class="chef_title text-center pb-5">
+            <h6 class="sub_title">Our team</h6>
+            <h2 class="title">Meet Our Chefs</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <div class="chef_img position-relative">
+                <img class="w-100 rounded-2" src="img/chef2.jpg" alt="" />
+                <div class="chef_img_overlay w-100">
+                  <div class="overlay_social">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <a href="#">Daniel jacobs</a>
+              <p class="text">Chef</p>
+            </div>
+            <div class="col-lg-4 text-center position-relative">
+              <div class="chef_img position-relative">
+                <img class="w-100 rounded-2" src="img/chef1.jpg" alt="" />
+                <div class="chef_img_overlay w-100">
+                  <div class="overlay_social">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <a href="#">Claire Daniel</a>
+              <p class="text">Chef</p>
+            </div>
+            <div class="col-lg-4 text-center position-relative">
+              <div class="chef_img position-relative">
+                <img class="w-100 rounded-2" src="img/chef2.jpg" alt="" />
+                <div class="chef_img_overlay w-100">
+                  <div class="overlay_social">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <a href="#">Daniel Hunt</a>
+              <p class="text">Chef</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+
+    <section class="products py-5">
+      <div class="container">
+        <div class="products_content pb-5">
+          <div class="products_title text-center py-5">
+            <h6 class="sub_title">What's New</h6>
+            <h3 class="title">Popular Categories</h3>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 position-relative">
+              <div class="products_img">
+                <a href="#">
+                  <img class="w-100 rounded-2" src="img/g1.jpg" alt="" />
+                </a>
+              </div>
+              <div class="products_text w-100">
+                <a class="products_text_title" href="#">Vegetarian</a>
+                <p class="text mt-1">$350</p>
+              </div>
+            </div>
+            <div class="col-lg-4 position-relative">
+              <div class="products_img">
+                <a href="#">
+                  <img class="w-100 rounded-2" src="img/g2.jpg" alt="" />
+                </a>
+              </div>
+              <div class="products_text w-100">
+                <a class="products_text_title" href="#">Drinks</a>
+                <p class="text mt-1">$550</p>
+              </div>
+            </div>
+            <div class="col-lg-4 position-relative">
+              <div class="products_img">
+                <a href="#">
+                  <img class="w-100 rounded-2" src="img/g3.jpg" alt="" />
+                </a>
+              </div>
+              <div class="products_text w-100">
+                <a class="products_text_title" href="#">Lunch</a>
+                <p class="text mt-1">$650</p>
+              </div>
+            </div>
+            <div class="col-lg-4 position-relative">
+              <div class="products_img">
+                <a href="#">
+                  <img class="w-100 rounded-2" src="img/g4.jpg" alt="" />
+                </a>
+              </div>
+              <div class="products_text w-100">
+                <a class="products_text_title" href="#">Bakery</a>
+                <p class="text mt-1">$550</p>
+              </div>
+            </div>
+            <div class="col-lg-4 position-relative">
+              <div class="products_img">
+                <a href="#">
+                  <img class="w-100 rounded-2" src="img/g5.jpg" alt="" />
+                </a>
+              </div>
+              <div class="products_text w-100">
+                <a class="products_text_title" href="#">Desserts</a>
+                <p class="text mt-1">$750</p>
+              </div>
+            </div>
+            <div class="col-lg-4 position-relative">
+              <div class="products_img">
+                <a href="#">
+                  <img class="w-100 rounded-2" src="img/g6.jpg" alt="" />
+                </a>
+              </div>
+              <div class="products_text w-100">
+                <a class="products_text_title" href="#">Pizza</a>
+                <p class="text mt-1">$850</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE -->
+
     <section class="feature py-5">
       <div class="container py-5">
         <div class="row gx-5 gy-4">
@@ -253,7 +435,8 @@
       </div>
     </section>
 
-    <!-- Taste  -->
+    <!-- TASTE -->
+
     <section class="taste py-5">
       <div class="container py-5">
         <div class="taste_content py-5">
@@ -273,93 +456,128 @@
       </div>
     </section>
 
-    <!-- Menu -->
-    <section class="menu py-5">
-      <div class="container py-5">
-        <div class="menu_all">
-          <div class="menu_title text-center pb-4">
-            <h6 class="sub_title">Plans</h6>
-            <h2 class="title text-center">Our Menu</h2>
-          </div>
+    <!-- CONTACT US -->
+
+    <section class="contact_us py-5">
+      <div class="container py-lg-5 py-md-4">
+        <div
+          class="contact_us_title d-flex justify-content-center align-items-center flex-column"
+        >
+          <h6 class="sub_title">Get in touch</h6>
+          <h2 class="title title_contact">Contact Us</h2>
+          <p class="text text-center mt-3 mb-5">
+            Start working with Us that can provide everything you need to
+            generate awareness, drive traffic, connect. <br />
+            We guarantee that you’ll be able to have any issue resolved within
+            24 hours.
+          </p>
+        </div>
+        <div class="contact_us_content">
           <div class="row">
-            <div class="col-6">
-              <div class="menu_dish">
-                <div class="dish_name">Slow Cooked Egg</div>
-                <div class="dish_price fs-5">$79.50</div>
+            <div class="col-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Name"
+                aria-label="Name"
+              />
+            </div>
+            <div class="col-4">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+              />
+            </div>
+            <div class="col-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Subject"
+                aria-label="Subject"
+              />
+            </div>
+            <div class="col-12 pt-3">
+              <textarea
+                class="form-control"
+                type="text"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="text-end pt-4">
+          <button class="btn btn_orange">Send Message</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FIND US -->
+
+    <section class="find_us pb-5">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col-3">
+            <div class="find_left_title pb-4">
+              <p class="sub_title">Find Us</p>
+              <h2 class="title">Additional Info</h2>
+            </div>
+            <div class="find_left_content row gy-2">
+              <div class="col-2">
+                <i class="fa fa-phone"></i>
               </div>
-              <div class="dish_describe">
-                <p class="text">Lorem ipsum dolor sit amet adipiscing.</p>
+              <div class="col-10">
+                <h5 class="title">Phone number</h5>
+                <p>
+                  <a href="tel:+(21) 255 088 4943" class="text"
+                    >+(21) 255 088 4943</a
+                  >
+                </p>
+              </div>
+              <div class="col-2">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="title">Send Email</h5>
+                <p>
+                  <a href="mailto:diner@mail.com" class="text"
+                    >diner@mail.com</a
+                  >
+                </p>
+              </div>
+              <div class="col-2">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="title">Office Address</h5>
+                <p>
+                  <a
+                    href="tel:+(21) 255 088 4943"
+                    class="text text-decoration-none"
+                    >Address here, 434 Food Honey street, London, UK - 62617.</a
+                  >
+                </p>
               </div>
             </div>
-            <div class="col-6">
-              <div class="menu_dish">
-                <div class="dish_name">Spinach Chicken</div>
-                <div class="dish_price fs-5">$63.75</div>
-              </div>
-              <div class="dish_describe">
-                <p class="text">Lorem ipsum dolor sit amet adipiscing.</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="menu_dish">
-                <div class="dish_name">Ravioli</div>
-                <div class="dish_price fs-5">$63.75</div>
-              </div>
-              <div class="dish_describe">
-                <p class="text">Lorem ipsum dolor sit amet adipiscing.</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="menu_dish">
-                <div class="dish_name">Tomahawk Steak</div>
-                <div class="dish_price fs-5">$70.50</div>
-              </div>
-              <div class="dish_describe">
-                <p class="text">Lorem ipsum dolor sit amet adipiscing.</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="menu_dish">
-                <div class="dish_name">Chicken Salad</div>
-                <div class="dish_price fs-5">$70.50</div>
-              </div>
-              <div class="dish_describe">
-                <p class="text">Lorem ipsum dolor sit amet adipiscing.</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="menu_dish">
-                <div class="dish_name">Cornish Turbot</div>
-                <div class="dish_price fs-5">$58.25</div>
-              </div>
-              <div class="dish_describe">
-                <p class="text">Lorem ipsum dolor sit amet adipiscing.</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="menu_dish">
-                <div class="dish_name">Sweet Heat Salad</div>
-                <div class="dish_price fs-5">$58.25</div>
-              </div>
-              <div class="dish_describe">
-                <p class="text">Lorem ipsum dolor sit amet adipiscing.</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="menu_dish">
-                <div class="dish_name">Permanent Waving</div>
-                <div class="dish_price fs-5">$79.50</div>
-              </div>
-              <div class="dish_describe">
-                <p class="text">Lorem ipsum dolor sit amet adipiscing.</p>
-              </div>
-            </div>
+          </div>
+          <div class="col-9 ps-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.5851966824!2d-0.2664051595240117!3d51.52852620095036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2zTHXDom4gxJDDtG4sIFbGsMahbmcgUXXhu5FjIEFuaA!5e0!3m2!1svi!2s!4v1713611855040!5m2!1svi!2s"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
+
     <footer class="pt-5">
       <div class="container px-2 py-lg-4">
         <div class="footer_upper row">
@@ -439,7 +657,7 @@
       };
 
       document.querySelector(".toggle").onclick = function () {
-        document.querySelector("body").classList.toggle("dark");
+        document.getElementById("dark").classList.toggle("dark");
       };
     </script>
   </body>

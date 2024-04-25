@@ -1,0 +1,56 @@
+/* BANNER_CONTACT */
+
+.banner_contact {
+  background: linear-gradient(to right, rgb(236 98 6 / 98%), rgb(5 3 0 / 83%)),
+    url(../img/banner2.jpg) fixed no-repeat center / cover;
+  height: 48vh;
+  font-size: 18px;
+}
+
+.banner_contact a {
+  color: #ff6600;
+  font-weight: 600;
+}
+
+/* END BANNER_CONTACT */
+
+/*  */
+
+/* ERROR */
+
+.error h1 {
+  font-weight: 700;
+  font-size: 130px;
+  letter-spacing: 5px;
+  color: #232121;
+}
+
+.error h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #232121;
+}
+
+.error .form-control {
+  color: rgba(22, 28, 45, 0.7);
+  background-color: #f7f7f7;
+  padding: 12px 120px 12px 25px;
+  font-size: 18px;
+  line-height: 28px;
+  height: 55px;
+  display: block;
+  font-weight: 500;
+  border: 1px solid #ced4da;
+}
+
+.error .error_content a {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  color: #232121;
+  letter-spacing: 0;
+}
+
+.error .error_content a:hover {
+  color: #ff6600;
+}
