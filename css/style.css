@@ -406,9 +406,66 @@ header .header_overlay .nav-link:hover {
   color: white;
 }
 
+.number {
+  top: 85%;
+}
+
+.number .col-6 .number_list {
+  background-color: white;
+  box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+  text-align: center;
+  padding: 30px 20px;
+  transition: all 0.3s;
+}
+
+.number .col-6 i {
+  background: #ff6600;
+  font-size: 26px;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  color: #fff;
+  text-align: center;
+}
+
+.number .col-6:hover .number_list {
+  transform: translateY(-0.25rem);
+  box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px,
+    rgba(71, 63, 79, 0.16) 0px 5px 10px;
+}
+
 /* END TASTE  */
 
 /*  */
+
+/* VIDEO */
+
+.video {
+  margin-top: 300px;
+}
+
+.video_content {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 28, 45, 0.7);
+  z-index: 2;
+}
+
+.video_content.hide {
+  visibility: visible;
+}
+
+.video img {
+  height: 500px;
+  width: 90%;
+}
+
+/* END VIDEO */
 
 /* FOOTER */
 
