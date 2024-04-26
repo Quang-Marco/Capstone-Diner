@@ -506,7 +506,63 @@ header .header_overlay .nav-link:hover {
 
 
 /* ENDBLOG */
+.carousel-inner .carousel-item img {
+ height: 9vh;
+}
+/* .carousel-indicators button {
+  color: #ff6600;
+} */
+.carousel-indicators [data-bs-target] {
+  color: #ff6600 !important;
+}
+.carousel-item h5 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #232121;
+  font-weight: 600;
+}
+.carousel-item h5 i:first-child {
+  left: 371px;
+  top: 5px;
+}
+.carousel-item h5 i:last-child {
+  top: 5px;
+  right: 371px;
+}
+.carousel-item h3 {
+  font-weight: 600;
+    font-size: 20px;
+}
+.carousel-item  #special i:first-child {
+  left: 348px;
+  top: 5px;
+}
+.carousel-item  #special i:last-child {
+  top: 5px;
+  right: 355px;
+}
 
+
+.carousel-item p .text-center {
+  opacity: 0.8;
+  margin-top: 4px;
+  font-size: 18px;
+}
+.carousel-item span {
+  font-size: 22px;
+    color: #ff6600;
+}
+.carousel-item i {
+  font-size: 10px;
+}
+
+/* CAROUSEL*/
+
+
+
+
+
+/* ENDCAROUSEL */
 /* FOOTER */
 
 footer {
