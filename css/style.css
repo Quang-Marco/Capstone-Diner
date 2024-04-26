@@ -445,21 +445,6 @@ header .header_overlay .nav-link:hover {
   margin-top: 300px;
 }
 
-.video_content {
-  visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(22, 28, 45, 0.7);
-  z-index: 2;
-}
-
-.video_content.hide {
-  visibility: visible;
-}
-
 .video img {
   height: 500px;
   width: 90%;
