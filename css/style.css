@@ -73,7 +73,6 @@ a {
   font-size: 18px;
   line-height: 28px;
   color: rgba(22, 28, 45, 0.7);
-  letter-spacing: 1px;
 }
 
 .form-control {
@@ -232,7 +231,7 @@ header .header_overlay .nav-link:hover {
 }
 
 .banner .banner_content {
-  max-width: 600px;
+  max-width: 670px;
 }
 
 .banner h3 {
@@ -336,7 +335,7 @@ header .header_overlay .nav-link:hover {
 /* FEATURE */
 
 .feature .feature_box {
-  padding: 40px;
+  padding: 30px;
   border: 1px solid #eee;
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
   transition: all 0.5;
@@ -383,7 +382,6 @@ header .header_overlay .nav-link:hover {
 .taste {
   background: url(../img/banner2.jpg) no-repeat center / cover;
   color: white;
-  text-align: center;
   position: relative;
   z-index: 1;
 }
@@ -407,7 +405,7 @@ header .header_overlay .nav-link:hover {
 }
 
 .number {
-  top: 85%;
+  top: 76%;
 }
 
 .number .col-6 .number_list {
@@ -451,6 +449,98 @@ header .header_overlay .nav-link:hover {
 }
 
 /* END VIDEO */
+
+/* BLOG */
+
+.blog {
+  background-color: #f7f7f7;
+}
+
+.card_img img {
+  border-radius: 7px;
+}
+
+.blog a {
+  text-decoration: none;
+  color: #232121;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.car_body a {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.car_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car_footer a img:first-child {
+  border-radius: 50%;
+}
+
+.footer_right a i {
+  padding-left: 5px;
+}
+
+.footer_right a:hover {
+  color: #ff6600;
+}
+
+/* ENDBLOG */
+
+/*  */
+
+/* CAROUSEL*/
+
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d8d8d8;
+  transition: all 0.5s;
+}
+
+.carousel .carousel-indicators button.active,
+.carousel .carousel-indicators button:hover {
+  background-color: #ff6600;
+}
+
+.carousel .carousel-item img {
+  width: 85px;
+  height: 85px;
+}
+
+.carousel .carousel-item i {
+  font-size: 22px;
+  color: #ff6600;
+}
+
+.carousel .carousel-item q {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  font-style: italic;
+  color: #232121;
+}
+
+.carousel .carousel-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.carousel .carousel-item p:last-child {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* ENDCAROUSEL */
+
+/*  */
 
 /* FOOTER */
 
