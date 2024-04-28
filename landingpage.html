@@ -493,12 +493,10 @@
     <section class="video py-5">
       <div class="container py-5">
         <!-- Button trigger modal -->
-        <div
-          class="video_img d-flex justify-content-center align-items-center position-relative rounded-2"
-        >
+        <div class="video_img row position-relative rounded-2">
           <button
             type="button"
-            class="btn"
+            class="btn col-12"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
@@ -514,28 +512,23 @@
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-fullscreen position-fixed">
+          <div class="modal-dialog modal-fullscreen position-relative">
             <div class="modal-content">
-              <div class="modal-header">
-                <button
-                  type="button"
-                  class="btn-close bg-white"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                <iframe
-                  width="100%"
-                  height="400"
-                  src="https://player.vimeo.com/video/305185528?h=195bf3cba0"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </div>
+              <button
+                type="button"
+                class="btn-close bg-white position-absolute"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+              <iframe
+                width="100%"
+                height="450"
+                src="https://player.vimeo.com/video/305185528?h=195bf3cba0"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </div>
@@ -546,9 +539,9 @@
 
     <section class="blog py-5">
       <div class="container px-3">
-        <div class="bolg_title text-center p-3">
+        <div class="blog_title text-center p-3">
           <span class="sub_title">Latest Posts</span>
-          <h2 class="tltle">Blog Posts</h2>
+          <h2 class="title">Blog Posts</h2>
         </div>
         <div class="row">
           <div class="col-4">
