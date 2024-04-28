@@ -231,7 +231,7 @@ header .header_overlay .nav-link:hover {
 }
 
 .banner .banner_content {
-  max-width: 670px;
+  max-width: 600px;
 }
 
 .banner h3 {
@@ -449,7 +449,6 @@ header .header_overlay .nav-link:hover {
 
 .video .video_img {
   background: url(../img/banner3.jpg) no-repeat center;
-  width: 1170px;
   height: 500px;
 }
 
@@ -474,9 +473,9 @@ header .header_overlay .nav-link:hover {
   border-radius: 50%;
   color: #ff6600;
   background: white;
+  border: transparent;
   transition: all 0.3s;
   animation: ripple 1s linear infinite;
-  border: transparent;
 }
 
 .video .fa-play:hover {
@@ -486,11 +485,18 @@ header .header_overlay .nav-link:hover {
 }
 
 .video .modal-content {
-  background-color: #0b0b0b;
-  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10% 0;
+}
+
+.video .modal-content .btn-close {
+  right: 24%;
+  top: 15%;
 }
 
 /* END VIDEO */
+
+/*  */
 
 /* BLOG */
 
