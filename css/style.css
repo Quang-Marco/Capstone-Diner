@@ -253,15 +253,15 @@ header .header_overlay .nav-link:hover {
 
 /* TABLE_BOOK */
 
-.table_book .table_book_left img {
-  object-fit: cover;
-}
-
-.table_book .table_book_right {
+.table_book {
   background-color: #ff6600;
 }
 
-.table_book .table_book_left:before {
+.table_book .table_book_left .left_img {
+  background: url(../img/banner3.jpg) no-repeat center / cover;
+}
+
+.table_book .table_book_left .left_img::before {
   content: "";
   background: rgb(16 15 19 / 46%);
   position: absolute;
@@ -423,8 +423,11 @@ header .header_overlay .nav-link:hover {
 }
 
 .number {
-  top: 76%;
+  margin-top: -70px;
+  position: relative;
+  z-index: 2;
 }
+/* Phải có position thì mới chỉnh được các giá trị top, left, right, bottom, z-index */
 
 .number .col-6 .number_list {
   background-color: white;
@@ -457,8 +460,8 @@ header .header_overlay .nav-link:hover {
 
 /* VIDEO */
 
-.video {
-  margin-top: 200px;
+.video .container {
+  margin: 0 120px;
 }
 
 .video .video_img .btn {
@@ -467,7 +470,7 @@ header .header_overlay .nav-link:hover {
 
 .video .video_img {
   background: url(../img/banner3.jpg) no-repeat center;
-  height: 500px;
+  min-height: 500px;
 }
 
 .video .video_img::before {
@@ -719,5 +722,32 @@ footer .footer_bottom {
   100% {
     box-shadow: 0 0 0 10px rgb(255 255 255 / 25%),
       0 0 0 20px rgb(255 255 255 / 25%), 0 0 0 40px rgba(50, 100, 245, 0);
+  }
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 992px) {
+  .video .video_img {
+    min-height: 400px;
+  }
+
+  footer .social,
+  footer .footer_bottom .col-lg-8 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header .header_content .navbar form {
+    display: none;
+  }
+
+  .table_book .table_book_left {
+    min-height: 250px;
+  }
+
+  .number {
+    margin-top: 0;
   }
 }
