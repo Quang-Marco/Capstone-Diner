@@ -305,12 +305,15 @@ header .header_overlay .nav-link:hover {
 
 .products .products_text {
   position: absolute;
-  bottom: 5%;
-  left: 15%;
+  bottom: 0;
+  left: auto;
+  padding: 15px 50px;
 }
 
 .products .products_text .text {
   color: #ffc600;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .products .products_text .products_text_title {
@@ -320,12 +323,27 @@ header .header_overlay .nav-link:hover {
   color: white;
 }
 
-.products .row .col-lg-4 {
+.products .row .products_img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.53) 69%,
+    rgba(0, 0, 0, 0.76) 100%
+  );
+}
+
+.products .row .products_img img {
   transition: all 0.5s;
 }
 
-.products .row .col-lg-4:hover {
-  opacity: 0.8;
+.products .row .products_img img:hover {
+  opacity: 0.85;
 }
 
 /* END PRODUCTS */
@@ -338,7 +356,7 @@ header .header_overlay .nav-link:hover {
   padding: 30px;
   border: 1px solid #eee;
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
-  transition: all 0.5;
+  transition: all 0.5s;
 }
 
 .feature .feature_box:hover {
