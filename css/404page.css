@@ -18,6 +18,16 @@
 
 /* ERROR */
 
+.error .error_content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error form {
+  max-width: 500px;
+  margin: auto;
+}
+
 .error h1 {
   font-weight: 700;
   font-size: 130px;
@@ -41,6 +51,19 @@
   display: block;
   font-weight: 500;
   border: 1px solid #ced4da;
+  margin-right: 20px;
+}
+
+.error button {
+  width: 100%;
+  padding: 0 40px;
+  height: 55px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.error .form-control::placeholder {
+  color: #6c757d;
 }
 
 .error .error_content a {
