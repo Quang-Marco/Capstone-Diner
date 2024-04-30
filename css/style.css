@@ -456,10 +456,6 @@ header .header_overlay .nav-link:hover {
 
 /* VIDEO */
 
-.video .container {
-  margin: 0 120px;
-}
-
 .video .video_img .btn {
   z-index: 1;
 }
@@ -507,7 +503,7 @@ header .header_overlay .nav-link:hover {
 }
 
 .video .modal-content .btn-close {
-  right: 24%;
+  right: 25%;
   top: 15%;
 }
 
@@ -724,10 +720,6 @@ footer .footer_bottom {
 /* RESPONSIVE */
 
 @media screen and (max-width: 992px) {
-  .video .video_img {
-    min-height: 400px;
-  }
-
   footer .social,
   footer .footer_bottom .col-lg-8 {
     text-align: center;

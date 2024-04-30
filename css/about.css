@@ -30,6 +30,13 @@
   color: #ffc600;
 }
 
+.story .story_grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
 /* END STORY */
 
 /*  */
@@ -107,3 +114,10 @@
 }
 
 /* END CHEF */
+
+@media screen and (max-width: 992px) {
+  .story .story_grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+  }
+}
