@@ -74,7 +74,7 @@
 }
 
 .chef .row .col-lg-4:hover > a {
-  color: #ff6600;
+  color: #ff6600 !important;
 }
 
 .chef .chef_img .overlay_social a {
