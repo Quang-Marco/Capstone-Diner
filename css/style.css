@@ -157,16 +157,27 @@ a {
   border-bottom-left-radius: 9px;
 }
 
-.sidebar #sidebar_hidden i {
+.sidebar .sidebar_hidden i,
+.fa-angles-left {
   color: #e6ebff;
+  background: #0d1326;
   width: 50px;
   height: 50px;
   line-height: 50px;
   text-align: center;
+  border-radius: 50px;
   font-size: 20px;
   cursor: pointer;
   opacity: 0.5;
   margin: 10px auto;
+}
+
+.fa-angles-left {
+  position: fixed;
+  right: 20px;
+  top: 0;
+  margin-top: 150px;
+  /* display: none; */
 }
 
 .sidebar a {

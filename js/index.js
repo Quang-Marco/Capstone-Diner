@@ -16,8 +16,14 @@ document.querySelector(".toggle").onclick = function () {
 
 // Sidebar
 
-document.getElementById("sidebar_hidden").onclick = function () {
+document.getElementById("sidebar_close").onclick = function () {
   document.getElementById("sidebar").style.display = "none";
+  document.getElementById("sidebar_hide").style.display = "block";
+};
+
+document.getElementById("sidebar_hide").onclick = function () {
+  document.getElementById("sidebar").style.display = "block";
+  document.getElementById("sidebar_hide").style.display = "none";
 };
 
 // Countup
